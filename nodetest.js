@@ -29,7 +29,7 @@ function showMeteors(req,res) {
   const meteors=jsonfile.readFileSync("meteors.json")
   for (let meteor of meteors) {
     if (meteor.name == req.query.city) {
-      res.json({city:req.query.city, meteor:meteor})
+      res.json({city:req.query.city, meteor:meteor, "version":"1"})
       return
     }
   }
