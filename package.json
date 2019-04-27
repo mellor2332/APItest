@@ -1,0 +1,22 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "web couses",
+  "main": "nodetest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mellor2332/APItest.git"
+  },
+  "author": "jjik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mellor2332/APItest/issues"
+  },
+  "homepage": "https://github.com/mellor2332/APItest#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
