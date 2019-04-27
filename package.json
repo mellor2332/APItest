@@ -4,6 +4,7 @@
   "description": "web couses",
   "main": "nodetest.js",
   "scripts": {
+    "start": "nodemon nodetest.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/mellor2332/APItest#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "jsonfile": "^5.0.0",
+    "nodemon": "^1.18.11"
   }
 }
