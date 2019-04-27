@@ -41,7 +41,7 @@ function showMeteors(req,res) {
 
 
 
-app.listen(8765, onReady)
+app.listen(process.env.PORT || 8765, onReady)
 
 function onReady() {
   console.log("Server is now running!")
